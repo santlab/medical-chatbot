@@ -1,0 +1,30 @@
+{
+  "name": "medical-chatbot-jira",
+  "version": "1.0.0",
+  "description": "A chatbot integrated with Jira service management for troubleshooting and support.",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "jira-client": "^3.0.0",
+    "typescript": "^4.1.2"
+  },
+  "devDependencies": {
+    "ts-node": "^9.1.1",
+    "jest": "^26.6.0",
+    "ts-jest": "^26.5.0",
+    "@types/jest": "^26.0.0",
+    "@types/express": "^4.17.8"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "license": "MIT"
+}
